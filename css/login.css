@@ -1,0 +1,113 @@
+.container-login {
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%);
+    height: 100vh;
+    padding: 30px;
+}
+
+.container-login .login-box {
+    font-size: 1.1em;
+    color: white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .1);
+    padding: 25px 35px;
+    border-radius: 15px;
+    margin: 25px 35px;
+    font-weight: bold;
+
+}
+
+.container-login form {}
+
+.container-login .input-group {
+    margin: 30px 0px;
+}
+
+.container-login .input-group label {
+    display: block;
+    margin: 5px;
+}
+
+.container-login .input-group input {
+    background: none;
+    border: none;
+    border: 2px solid white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.container-login .do-you-have {}
+
+.container-login .do-you-have a {
+    color: rgb(255, 85, 0);
+}
+
+.container-login .do-you-have a:hover {
+    color: rgb(21, 255, 0);
+}
+
+.container-login .buttom-submit-login {
+    text-align: center;
+
+}
+
+.container-login .buttom-submit-login input {
+
+    background-color: rgb(255, 47, 0);
+    color: white;
+    border-radius: 35px;
+    padding: 10px 35px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.container-login .buttom-submit-login input:hover {
+
+    background-color: rgb(0, 255, 8);
+    color: white;
+    /* border-radius: 35px;
+    padding: 10px 35px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none; */
+}
+
+.container-login .social-login {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    margin: 20px 0px;
+    padding: 20px 0px;
+
+}
+
+.container-login .social-login a {
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.container-login .social-login a:hover {
+    color: rgb(61, 172, 224);
+    font-size: 1.5em;
+
+}
+
+.container-login .image {
+    display: flex;
+    justify-content: center;
+    padding-top: 25%;
+}
+
+.container-login .image img {
+    width: 100%;
+}

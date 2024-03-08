@@ -1,0 +1,578 @@
+header {
+    font-size: 1em;
+}
+
+/* navigation bar */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    padding: 10px 15px;
+
+}
+
+header nav .part_right {
+    display: flex;
+    align-items: center;
+
+}
+
+header nav .part_right a {
+    padding: 5px 5px;
+    margin: 0px 5px;
+    color: black;
+    font-size: 1.1em;
+}
+
+header nav .part_right a:hover {
+    color: rgb(179, 137, 219);
+}
+
+header nav .part_left .register_btn:hover {
+    color: rgb(199, 37, 62);
+}
+
+header nav .part_left .register_btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+header nav .part_left .register_btn:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+header nav .part_left .register_btn i {
+    margin-left: 5px;
+    padding-right: 5px;
+}
+
+header nav .part_left .register_btn a {
+    color: black;
+    padding-right: 5px;
+}
+
+header nav .part_left .register_btn a:hover {
+    color: aliceblue;
+}
+
+/* header {
+    font-size: 1em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+header nav .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-right a {
+    color: #444;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1.1em;
+
+}
+
+
+header nav .nav-left .register-login-btn {
+    border: 1px solid #666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header nav .nav-left .register-login-btn i {
+    margin: 7px;
+    color: #444;
+    font-size: 1.1em;
+
+}
+
+header nav .nav-left .register-login-btn a {
+    color: #444;
+    margin: 0px 10px;
+    font-size: .9em;
+} */
+
+
+
+/*----------------------------------------- Slide show---------------------------------------------------------------- */
+
+/* .slider {
+    position: relative;
+}
+
+.slider .slids {
+    position: relative;
+
+}
+
+.slider .slids .active_item {
+    position: relative;
+    display: block;
+
+}
+
+.slider .slids .active_item img {
+    position: relative;
+    width: 100%;
+}
+
+.slider .slids .active_item span {
+    position: absolute;
+    left: 40%;
+    top: 7%;
+    color: white;
+    font-size: 2em;
+
+}
+
+.slider .slids .item {
+    position: relative;
+    display: none;
+}
+
+.slider .slids .item img {
+    position: relative;
+}
+
+.slider .slids .item span {
+    position: absolute;
+}
+
+.bottons {
+    position: absolute;
+    left: 10%;
+    top: 91%;
+    color: rgb(110, 129, 112);
+    cursor: pointer;
+}
+
+.bottons i {}
+
+.bottons i:hover {
+    color: aqua;
+} */
+
+.slider {
+    position: relative;
+    font-size: 1em;
+}
+
+
+
+.slider .slides .item {
+    position: relative;
+    display: none;
+}
+
+.slider .slides .item img {
+    width: 100%;
+    height: 400px;
+}
+
+.slider .slides .item span {
+    position: absolute;
+    left: 40%;
+    top: 7%;
+    color: white;
+    font-size: 2em;
+}
+
+.slider .slides .active {
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.slider .buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+}
+
+.slider .buttons i {
+    color: rgb(50, 103, 189);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slider .buttons i:hover {
+    color: rgba(0, 255, 34, 0.929);
+
+}
+
+
+/* -------Class of products-------  */
+
+.product-section {
+    padding: 20px 10px;
+    font-size: 1em;
+
+}
+
+/* .product-section .shoping-card {
+
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    margin: 10px 5px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid rgb(87, 84, 84);
+    cursor: pointer;
+    transition: .2s;
+
+} */
+
+.shoping-card {
+
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    margin: 10px 5px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid rgb(87, 84, 84);
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.product-section .shoping-card:hover {
+    border: 5px solid #db654e;
+}
+
+.shoping-card .img-sec {
+    position: relative;
+    padding-top: 40px;
+
+
+
+}
+
+.shoping-card .img-sec img {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.shoping-card .img-sec .hot-offer {
+
+    background-color: #FF4C29;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: .9em;
+    font-weight: bold;
+
+}
+
+.shoping-card .img-sec .stars {
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #F2BE22;
+
+
+}
+
+.shoping-card .title {
+
+    color: #000000;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.shoping-card .button {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+
+}
+
+.shoping-card .button .right {}
+
+.shoping-card .button .right .price {
+
+    color: #000000;
+    font-weight: bold;
+}
+
+.shoping-card .button .left {
+
+    display: flex;
+
+}
+
+.shoping-card .button .left .extend-btn {
+
+
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(1, 91, 7);
+    color: white;
+    width: 40px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .75s;
+
+}
+
+.shoping-card .button .left .extend-btn:hover {
+    width: 80px;
+}
+
+.shoping-card .button .left .extend-btn .b-text {
+    display: none;
+    color: white;
+}
+
+.shoping-card .button .left .extend-btn:hover .b-text {
+    display: block;
+}
+
+.shoping-card .button .left .extend-btn a {
+
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.shoping-card .button .left .extend-btn .b-icon {
+    color: red;
+}
+
+/* ------- end of Class of products-------  */
+
+
+/* --------Class of supper offer ------ */
+
+.product-super-offer {
+
+    padding: 15px;
+    font-size: 1em;
+
+}
+
+.product-super-offer .super-offer-box {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.product-super-offer .title-pish-vighe {
+
+    background-color: red;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+}
+
+.product-super-offer .body .image-container {
+    padding: 30px;
+    text-align: center;
+}
+
+.product-super-offer .body .image-container img {}
+
+.product-super-offer .body .specific {
+
+    padding: 30px 5px;
+}
+
+.product-super-offer .body .specific .price-row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-super-offer .body .price {
+
+    margin-left: 5px;
+    color: #000000;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+.product-super-offer .body .off {
+
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-right: 15px;
+    font-weight: bold;
+
+}
+
+.product-super-offer .body .title-specific {
+
+    margin: 40px 0px;
+    font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.product-super-offer .body .counter-down {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.5em;
+
+}
+
+.product-super-offer .body .remaining-time {
+
+    color: gray;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.product-super-offer .banner {
+    text-align: center;
+    /* padding: 5px; */
+}
+
+.product-super-offer .banner img {
+
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 450px;
+}
+
+/* --------Class of supper offer done------ */
+
+
+/* -------- dragble list------ */
+
+.owl-stage-outer {
+    direction: ltr;
+}
+
+.dragble-list img {
+    width: 85% !important;
+    margin: auto;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 5px;
+}
+
+.dragble-list .title {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.dragble-list .title span {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+/* -------- dragble list------ */
+
+
+
+/* -------- footer------ */
+
+footer .row {
+    background-color: #636262;
+}
+
+footer .row .right {}
+
+.row .right .title {
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer .row .right .discription {
+    color: rgba(255, 255, 255, .7);
+    /* font-size: 1.2em; */
+    padding-bottom: 35px;
+    padding-right: 35px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+footer .row .left {}
+
+footer .row .left .title {
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+footer .row .left .social {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 1.5em;
+
+
+}
+
+footer .row .left .social a {
+    color: whitesmoke;
+}
+
+footer .row .left .social a:hover {
+    color: rgb(105, 192, 229);
+}
+
+footer .bottom {
+    background-color: #211f1f;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    font-weight: bold;
+    padding: 25px 0px;
+
+}
+
+
+/* -------- footer------ */

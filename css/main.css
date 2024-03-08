@@ -1,0 +1,40 @@
+/* @font-face {
+    font-family: B_Ziba;
+    src: url(../fonts/B-Ziba/B\ Ziba_0.ttf);
+} */
+
+/* * {
+    direction: rtl;
+    font-family: B_Ziba;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    margin: 0px;
+} */
+
+
+@font-face {
+    font-family: iran;
+    src: url(../fonts/iran.ttf);
+}
+
+* {
+    direction: rtl;
+    font-family: iran;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
