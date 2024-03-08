@@ -63,113 +63,7 @@ header nav .part_left .register_btn a:hover {
     color: aliceblue;
 }
 
-/* header {
-    font-size: 1em;
-}
 
-header nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 15px;
-    font-size: 1em;
-}
-
-header nav .nav-right {
-    display: flex;
-    align-items: center;
-}
-
-header nav .nav-right a {
-    color: #444;
-    padding: 5px 10px;
-    margin: 0px 5px;
-    font-size: 1.1em;
-
-}
-
-
-header nav .nav-left .register-login-btn {
-    border: 1px solid #666;
-    padding: 5px 8px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-header nav .nav-left .register-login-btn i {
-    margin: 7px;
-    color: #444;
-    font-size: 1.1em;
-
-}
-
-header nav .nav-left .register-login-btn a {
-    color: #444;
-    margin: 0px 10px;
-    font-size: .9em;
-} */
-
-
-
-/*----------------------------------------- Slide show---------------------------------------------------------------- */
-
-/* .slider {
-    position: relative;
-}
-
-.slider .slids {
-    position: relative;
-
-}
-
-.slider .slids .active_item {
-    position: relative;
-    display: block;
-
-}
-
-.slider .slids .active_item img {
-    position: relative;
-    width: 100%;
-}
-
-.slider .slids .active_item span {
-    position: absolute;
-    left: 40%;
-    top: 7%;
-    color: white;
-    font-size: 2em;
-
-}
-
-.slider .slids .item {
-    position: relative;
-    display: none;
-}
-
-.slider .slids .item img {
-    position: relative;
-}
-
-.slider .slids .item span {
-    position: absolute;
-}
-
-.bottons {
-    position: absolute;
-    left: 10%;
-    top: 91%;
-    color: rgb(110, 129, 112);
-    cursor: pointer;
-}
-
-.bottons i {}
-
-.bottons i:hover {
-    color: aqua;
-} */
 
 .slider {
     position: relative;
@@ -229,18 +123,7 @@ header nav .nav-left .register-login-btn a {
 
 }
 
-/* .product-section .shoping-card {
 
-    text-align: center;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
-    margin: 10px 5px;
-    border-radius: 5px;
-    padding: 10px;
-    border: 2px solid rgb(87, 84, 84);
-    cursor: pointer;
-    transition: .2s;
-
-} */
 
 .shoping-card {
 
